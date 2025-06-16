@@ -1,0 +1,9 @@
+{
+  "name": "proiect-licenta-1.0",
+  "scripts": {
+    "dev": "concurrently \"npm start --prefix crm-app\" \"npm run dev --prefix crm-backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
