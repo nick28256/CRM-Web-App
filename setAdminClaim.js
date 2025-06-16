@@ -1,6 +1,6 @@
 const admin = require("./firebaseAdmin");
 
-admin.auth().setCustomUserClaims("56lDvPOJDRQPspJqAhD2hjTZhMJ3", { admin: true })
+admin.auth().setCustomUserClaims("", { admin: true })
   .then(() => {
     console.log("Admin claim set!");
     process.exit();
